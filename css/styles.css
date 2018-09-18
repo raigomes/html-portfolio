@@ -12,19 +12,53 @@
 
 .projetos-relevantes {
     background-color: #FAFFFC;
-    font-family: "Crimson Text", "Times New Roman", serif;
-    font-size: 120%;
+    font-family: "Crimson Text", "Times New Roman", serif;    
     line-height: 1.5;
-    margin: 40px auto;
     max-width: 85%;
+    float: left;
+}
+
+.projetos-relevantes-container {
+    margin: 40px auto;
+    width: 80%;
+}
+
+.chamada-projetos {
+    margin-left: 2%;
+}
+
+.item-projeto,
+.foto-perfil,
+.perfil
+ {
+    border: 8px solid black;
 }
 
 .item-projeto {
-    border: 8px solid black;
+    display: inline-block;
+    margin: 2%;
+    width: 35%;
+    padding: 2%;
+}
+
+.item-projeto img {
+    width: 100%;
+}
+
+.foto-perfil {    
+    position: absolute;
+    top: 310px;
+}
+
+.perfil {
+    width: 15%;
+    float: right;
+    box-sizing: border-box;
 }
 
 .rodape {
     background-color: #000;
     color: #fff;
     padding: 20px;
+    clear: both;
 }
