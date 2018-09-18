@@ -1,13 +1,16 @@
 .cabecalho {
     background-color: #841943;
-    color: #fff;    
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 16px;
+    color: #fff;        
+    padding: 2%;
     border-bottom: 8px solid black;
+}
+
+.cabecalho-titulo {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;        
 }
 
 .projetos-relevantes {
@@ -36,9 +39,9 @@
 
 .item-projeto {
     display: inline-block;
-    margin: 2%;
+    margin: 1%;
     width: 35%;
-    padding: 2%;
+    padding: 1%;
 }
 
 .item-projeto img {
@@ -46,14 +49,54 @@
 }
 
 .foto-perfil {    
-    position: absolute;
-    top: 310px;
+    position: relative;
+    top: -25px;
+    right: 88px;
+    float: left;
 }
 
 .perfil {
     width: 15%;
     float: right;
     box-sizing: border-box;
+    color: #fff;
+    background-color: #3b1d3c;
+    font-weight: 600;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    top: -85px;
+}
+
+.nome {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10%;
+}
+
+.links-relacionados a {
+    display: block;
+    color: #fff;
+    padding: 2%;
+}
+
+.social li {
+    display: inline-block;
+    font-size: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.github {
+    background: url("../img/github.png") no-repeat;
+}
+
+.linkedin {
+    background: url("../img/linkedin.png") no-repeat;
+}
+
+.twitter {
+    background: url("../img/twitter.png") no-repeat;
 }
 
 .rodape {
