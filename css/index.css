@@ -1,0 +1,100 @@
+.foto-home {
+    height: 200px;
+}
+.secao-inicio {
+    padding: 2.5em;
+}
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+    font-size: 1.5em;
+    padding: 2em;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 2.5em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 2em;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 3.5em;
+}
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    padding: .5em;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;   
+    line-height: 1em; 
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+    padding-bottom: 1em;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+}
+.blog small {
+    font-size: .75em;
+}
+.blog ol {
+    margin-top: 2em;
+}
+.blog li {
+    margin: 1em .5em;
+}
+.blog li a {
+    color: #FCF;    
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer p {
+    font-size: 1em;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
