@@ -103,6 +103,7 @@
 }
 .secao-inicio h2 {
     text-transform: uppercase;
+    text-shadow: 2px 2px black;
     font-size: 2.5em;   
     line-height: 1em; 
 }
@@ -131,6 +132,7 @@
     background-color: #999;
     color: #FFF;
     border-bottom: 10px solid #851944;
+    position: relative;
 }
 .blog small {
     font-size: .75em;
@@ -139,10 +141,24 @@
     margin-top: 2em;
 }
 .blog li {
-    margin: 1em .5em;
+    margin: .5em;
+    padding: .5em;
 }
 .blog li a {
     color: #FCF;    
+}
+.mais-recente {
+    background-color: #F2FFFC;    
+}
+.inicio-post {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: #F2FFFC;
+    color: #000;
+    height: 10em;
+    padding: 1em;
+    margin: 1em;
 }
 footer {
     background-color: #000;
