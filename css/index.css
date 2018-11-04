@@ -1,5 +1,70 @@
+.titulo-principal {
+    position: relative;
+}
 .foto-home {
     height: 200px;
+}
+.palavra-home {
+    font-family: 'Shadows Into Light', cursive;
+    color: #D5447E;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.eficiencia {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+.boas-praticas {
+    position: absolute;
+    top: 70%;
+    left: 19%;
+}
+.codigo-limpo {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.css3 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.html5 {
+    position: absolute;
+    top: 40%;
+    left: 79%;
+}
+.javascript {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+.acessibilidade {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
+.responsivo {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.otimizacoes {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+.agilidade {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.design {
+    position: absolute;
+    top: 38%;
+    left: 65%;
 }
 .secao-inicio {
     padding: 2.5em;
