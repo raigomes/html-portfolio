@@ -99,9 +99,11 @@
     color: #000;
     font-size: 2em;
 }
-.saudacao em {
+.saudacao em {    
     color: #851944;
     font-size: 3.5em;
+    transform: skew(-10deg) rotate(-5deg);
+    display: inline-block;
 }
 .botao-index {
     background-color: #851944;
