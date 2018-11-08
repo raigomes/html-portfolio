@@ -16,56 +16,67 @@
     position: absolute;
     top: 20%;
     left: 75%;
+    transform: rotate(-10deg);
 }
 .boas-praticas {
     position: absolute;
     top: 70%;
     left: 19%;
+    transform: rotate(10deg);
 }
 .codigo-limpo {
     position: absolute;
     top: 45%;
     left: 10%;
+    transform: rotate(-10deg);
 }
 .css3 {
     position: absolute;
     top: 50%;
     left: 30%;
+    transform: rotate(5deg);
 }
 .html5 {
     position: absolute;
     top: 40%;
     left: 79%;
+    transform: rotate(10deg);
 }
 .javascript {
     position: absolute;
     top: 10%;
     left: 60%;
+    transform: rotate(-10deg);
 }
 .acessibilidade {
     position: absolute;
     top: 30%;
     left: 27%;
+    transform: rotate(-10deg);
 }
 .responsivo {
     position: absolute;
     top: 20%;
     left: 15%;
+    transform: rotate(15deg);
 }
 .otimizacoes {
     position: absolute;
     top: 60%;
     left: 70%;
+    transform: rotate(-5deg);
 }
 .agilidade {
     position: absolute;
     top: 10%;
     left: 30%;
+    transform: rotate(10deg);
 }
 .design {
     position: absolute;
     top: 38%;
     left: 65%;
+    transform: rotate(10deg);
 }
 .secao-inicio {
     padding: 2.5em;
